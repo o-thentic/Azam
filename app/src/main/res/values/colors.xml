@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#F34235</color>
+    <color name="colorPrimaryDark">#D22E2E</color>
+    <color name="colorAccent">#2095F2</color>
+    <color name="colorSecondary">#9B26AF</color>
+    <color name="Orange500">#FF9700</color>
+    <color name="White">#FFFFFF</color>
+    <color name="lightGrey">#CCCCCC</color>
+    <color name="Grey50">#f9f9f9</color>
+    <color name="Red200">#ee9999</color>
+    <color name="darkGrey">#404041</color>
+    <color name="Blue500">#2095f2</color>
+    <color name="lightLightGrey">#fff3f3f3</color>
+</resources>

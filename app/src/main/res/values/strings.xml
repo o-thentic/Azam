@@ -1,0 +1,83 @@
+<resources>
+    <string name="app_name">Azam</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="Roboto_Regular">RobotoRegular</string>
+    <string name="Roboto_Light">RobotoLight</string>
+    <string name="Roboto_Thin">RobotoThin</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!-- Set String Resources here -->
+    <string-array name="residecy">
+        <item>Resident</item>
+        <item>Non-Resident</item>
+    </string-array>
+
+    <string-array name="outbound_from_to">
+        <item>Dar-es-salaam - Zanzibar</item>
+        <item>Zanzibar - Pemba</item>
+        <item>Dar-es-salaam - Pemba</item>
+    </string-array>
+
+    <string-array name="inbound_from_to">
+        <item>Zanzibar - Dar-es-salaam</item>
+        <item>Pemba - Zanzibar</item>
+        <item>Pemba - Dar-es-salaam</item>
+    </string-array>
+
+    <string-array name="journey_time">
+        <item> D 07:00 - A 09:00</item>
+        <item> D 09:30 - A 12:00</item>
+        <item> D 12:30 - A 14:15</item>
+        <item> D 16:00 - A 17:15</item>
+        <item> D 19:45 - A  11:00</item>
+    </string-array>
+
+    <string-array name="seat_type">
+        <item>Economy</item>
+        <item>Business</item>
+        <item>First Class</item>
+        <item>Royal</item>
+    </string-array>
+
+    <string-array name="seat_price_foreign">
+        <item>35.00</item>
+        <item>40.00</item>
+        <item>45.00</item>
+        <item>50.00</item>
+    </string-array>
+
+    <string-array name="seat_price_local">
+        <item>25000.00</item>
+        <item>30000.00</item>
+        <item>35000.00</item>
+        <item>40000.00</item>
+    </string-array>
+
+    <string-array name="gender">
+        <item>male</item>
+        <item>female</item>
+    </string-array>
+
+    <string-array name="countries">
+        <item>Afghanistan</item>
+        <item>Albania</item>
+        <item>Algeria</item>
+        <item>Andorra</item>
+        <item>Angola</item>
+        <item>Antigua and Barbuda</item>
+        <item>Argentina</item>
+        <item>Armenia</item>
+        <item>Aruba</item>
+        <item>Australia</item>
+        <item>Austria</item>
+        <item>Azerbaijan</item>
+    </string-array>
+
+</resources>

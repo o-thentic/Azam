@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/action_outbound"
+        android:title="outbound"
+        android:icon="@drawable/ic_bar_addoutbound"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
+    <item android:id="@+id/action_inbound"
+        android:title="inbound"
+        android:icon="@drawable/ic_bar_addinbound"
+        android:orderInCategory="200"
+        app:showAsAction="never" />
+</menu>

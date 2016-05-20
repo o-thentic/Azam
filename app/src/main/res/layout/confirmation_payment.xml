@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/White"
+    android:orientation="vertical">
+
+    <com.tanzakesho.framework.AzamFont
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:text="SUMMARY"
+        android:textSize="24sp"
+        app:font="@string/Roboto_Light" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@drawable/item_divide_line" />
+
+    <ListView
+        android:id="@+id/list_booking"
+        android:name="com.tanzakesho.azam.FragmentPaymentConfirmation"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="6"
+        tools:context="com.tanzakesho.azam.FragmentPaymentConfirmation"
+        tools:listitem="@layout/item_booking_summary" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/lightLightGrey">
+
+
+        <Button
+            android:id="@+id/booking_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:backgroundTint="@color/Blue500"
+            android:text="Cancel"
+            android:textAllCaps="false"
+            android:textColor="@color/White"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/booking_confirm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:backgroundTint="@color/Blue500"
+            android:text="Confirm"
+            android:textAllCaps="false"
+            android:textColor="@color/White"
+            android:textSize="18sp" />
+
+
+    </RelativeLayout>
+
+
+</LinearLayout>

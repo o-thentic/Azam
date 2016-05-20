@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Spinner text custom font -->
+<com.tanzakesho.framework.AzamFont xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:textSize="18sp"
+    android:paddingRight="?android:attr/listPreferredItemPaddingRight"
+    android:paddingLeft="?android:attr/listPreferredItemPaddingLeft"
+    android:textColor="@color/darkGrey"
+    app:font="@string/Roboto_Light"
+    android:singleLine="true">
+
+</com.tanzakesho.framework.AzamFont>
